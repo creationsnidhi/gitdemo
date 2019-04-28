@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PassionInc" duration-ms="27661" started-at="2019-03-28T22:42:34Z" finished-at="2019-03-28T22:43:01Z">
+    <groups>
+    </groups>
+    <test name="PassionInc Test1" duration-ms="27661" started-at="2019-03-28T22:42:34Z" finished-at="2019-03-28T22:43:01Z">
+      <class name="com.passionInc.testCases.PI_TC_02">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.passionInc.testCases.PI_TC_02@f6c48ac]" name="setup" is-config="true" duration-ms="3583" started-at="2019-03-28T22:42:43Z" finished-at="2019-03-28T22:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="submitNegative(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.passionInc.testCases.PI_TC_02@f6c48ac]" name="submitNegative" duration-ms="1637" started-at="2019-03-28T22:42:48Z" data-provider="DataNegative" finished-at="2019-03-28T22:42:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nidhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[creations.nidhi@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitNegative -->
+        <test-method status="PASS" signature="submitNegative(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.passionInc.testCases.PI_TC_02@f6c48ac]" name="submitNegative" duration-ms="1398" started-at="2019-03-28T22:42:49Z" data-provider="DataNegative" finished-at="2019-03-28T22:42:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nidhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitNegative -->
+        <test-method status="PASS" signature="submitNegative(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.passionInc.testCases.PI_TC_02@f6c48ac]" name="submitNegative" duration-ms="2227" started-at="2019-03-28T22:42:51Z" data-provider="DataNegative" finished-at="2019-03-28T22:42:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[creations.nidhi@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitNegative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.passionInc.testCases.PI_TC_02@f6c48ac]" name="tearDown" is-config="true" duration-ms="739" started-at="2019-03-28T22:42:53Z" finished-at="2019-03-28T22:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.passionInc.testCases.PI_TC_02 -->
+      <class name="com.passionInc.testCases.PI_TC_01">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.passionInc.testCases.PI_TC_01@464bee09]" name="setup" is-config="true" duration-ms="4991" started-at="2019-03-28T22:42:34Z" finished-at="2019-03-28T22:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="submit()[pri:0, instance:com.passionInc.testCases.PI_TC_01@464bee09]" name="submit" duration-ms="3537" started-at="2019-03-28T22:42:39Z" finished-at="2019-03-28T22:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.passionInc.testCases.PI_TC_01@464bee09]" name="tearDown" is-config="true" duration-ms="646" started-at="2019-03-28T22:42:43Z" finished-at="2019-03-28T22:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.passionInc.testCases.PI_TC_01 -->
+      <class name="com.passionInc.testCases.PI_TC_03">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.passionInc.testCases.PI_TC_03@13deb50e]" name="setup" is-config="true" duration-ms="4003" started-at="2019-03-28T22:42:54Z" finished-at="2019-03-28T22:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="chechemailformat()[pri:0, instance:com.passionInc.testCases.PI_TC_03@13deb50e]" name="chechemailformat" duration-ms="3073" started-at="2019-03-28T22:42:58Z" finished-at="2019-03-28T22:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chechemailformat -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.passionInc.testCases.PI_TC_03@13deb50e]" name="tearDown" is-config="true" duration-ms="685" started-at="2019-03-28T22:43:01Z" finished-at="2019-03-28T22:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.passionInc.testCases.PI_TC_03 -->
+    </test> <!-- PassionInc Test1 -->
+  </suite> <!-- PassionInc -->
+</testng-results>
